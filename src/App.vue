@@ -50,9 +50,9 @@ body{font-size: 33px;}
 }
 html,body,#app {
   height: 140%;
-  width: 100.4%;
+  width: 100%;
   font: normal 100% Helvetica, Arial, sans-serif;
-  background-image:url('assets/img/phyy.jpg');
+  /* background-image:url('assets/img/phyy.jpg'); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

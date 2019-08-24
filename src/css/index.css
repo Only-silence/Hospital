@@ -1,0 +1,165 @@
+*{
+    display: flex;
+    /* width: 100%; */
+  }
+  .all{
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  /* title */
+  .hospital-title{
+    width: 100%;
+    height: 5.2%;
+  }
+  
+  /* title-left */
+  .title-left{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .title-left-log{
+    height: 65%;
+    width: 12%;
+  }
+  .logo-png{
+    height: 98%;
+    width: 98%;
+  }
+  .title-left-text{
+    align-items: center;
+    height: 65%;
+    width: 57.5%;
+  }
+  .text-logo-png{
+    height: 40%;
+    width: 73.5%;
+  }
+  
+  /* title-right */
+  .title-right{
+    height: 100%;
+    width: 50%;
+  }
+  .title-right-search{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  /* search */
+  .search{
+    width: 75%;
+    height: 25%;
+    border-radius: 20px;
+    border: #18b3df solid 2px;
+  }
+  .search-icon{
+    height: 100%;
+    width: 11%;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+  }
+  .search-icon-sousuo{
+    font-size: 1.5rem;
+    margin-left: 20%;
+    color: #000;
+    font-weight: 500;
+  }
+  .search-input{
+    height: 100%;
+    width: 69%;
+    border: 0;  
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .search-button{
+    height: 100%;
+    width: 20%;
+    background: #18d2c7;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  /* phone */
+  .title-right-phone{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+  }
+  .phone-icon{
+    width: 17%;
+    height: 50%;
+  }
+  .phon-png{
+    width: 100%;
+    height: 100%;
+  }
+  .phone-text{
+    width: 55%;
+    height: 50%;
+    flex-direction: column;
+  }
+  .phone-text-up{
+    height: 50%;
+    width: 90%;
+    font-size: 1.3rem;
+    margin-left: 3%;
+    font-weight: 600;
+    align-items: center;
+    color: #18d2c7;
+  }
+  .phone-text-down{
+    height: 50%;
+    width: 90%;
+    font-size: 1.8rem;
+    margin-left: 3%;
+    font-weight: 600;
+    align-items: center;
+    color: #ffb82c;
+  }
+  
+  /* tab */
+  .hospital-tab{
+    height: 2.8%;
+    align-items: center;
+    justify-content: center;
+  }
+  .hospital-tab-edge{
+    width: 8%;
+    height: 100%;
+    background-image:url('../assets/img/list-background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: #fff solid 1px;
+  }
+  .hospital-tab-list{
+    height: 100%;
+    flex: 1;
+  }
+  .hospital-tab-list-button{
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    background-image:url('../assets/img/list-background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    border-left: #fff solid 1px;
+    border-right: #fff solid 1px;
+  }
+  .hospital-tail{
+    margin-top: 2%;
+    height: 7.3%;
+    width: 100%;
+    border: #f00 solid 1px;
+  }
+  

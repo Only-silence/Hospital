@@ -22,19 +22,19 @@ export default {
           {
             // html: 'slide1',
             style: {
-              'background': 'url(http://img0.imgtn.bdimg.com/it/u=3466831972,2216985576&fm=26&gp=0.jpg)'
+              'background': 'url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2763906314,2105266325&fm=26&gp=0.jpg)'
             }
           },
           {
-            html: 'slide2',
+            // html: 'slide2',
             style: {
-              'background': '#4bbfc3'
+              'background': 'url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2763906314,2105266325&fm=26&gp=0.jpg)'
             }
           },
           {
-            html: 'slide3',
+            // html: 'slide3',
             style: {
-              'background': '#7baabe'
+              'background': 'url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2763906314,2105266325&fm=26&gp=0.jpg)'
             }
           }
         ],

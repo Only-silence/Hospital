@@ -22,25 +22,29 @@ export default {
           {
             // html: 'slide1',
             style: {
-              'background': 'url(http://img0.imgtn.bdimg.com/it/u=3466831972,2216985576&fm=26&gp=0.jpg)'
+              'background': 'url(http://img2.imgtn.bdimg.com/it/u=3864177753,3040528167&fm=26&gp=0.jpg)'
             }
           },
           {
-            html: 'slide2',
+            // html: 'slide2',
             style: {
-              'background': '#4bbfc3'
+              'background': 'url(http://img5.imgtn.bdimg.com/it/u=128087870,3045749721&fm=26&gp=0.jpg)'
             }
           },
           {
-            html: 'slide3',
+            // html: 'slide3',
             style: {
-              'background': '#7baabe'
+              'background': 'url(http://img5.imgtn.bdimg.com/it/u=3514761049,1866138884&fm=26&gp=0.jpg)'
             }
           }
         ],
         //Slider configuration [obj]
         options: {
-          currentPage: 0
+          currentPage: 0,
+          autoplay: 5000,
+          loop:true,
+          infinite:1,//无限滚动前后遍历数
+          slidesToScroll:1//每次滑动项数
         }
       }
     },

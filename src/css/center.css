@@ -1,0 +1,483 @@
+.all {
+    width: 100%;
+    height: 100%;
+  }
+  /* banner */
+  .hospital-banner {
+    height: 23%;
+  }
+  /* function */
+  .hospital-function {
+    height: 4.6%;
+    margin: 0.5% 0;
+    display: flex;
+    justify-content: center;
+  }
+  .function {
+    width: 73%;
+    height: 100%;
+    display: flex;
+    border-top: #06b2c6 solid 2.5px;
+    border-bottom: #06b2c6 solid 2.5px;
+  }
+  .function-list {
+    height: 100%;
+    width: 24.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.2%;
+    background: #f1f1f1;
+  }
+  .function-list-icon {
+    height: 100%;
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .function-list-text {
+    height: 100%;
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .function-list-text > :first-child {
+    color: #06b2c6;
+    font-size: 1.6rem;
+  }
+  .function-list-text > :last-child {
+    color: #a1a1a1;
+    font-size: 0.1rem;
+  }
+  .icon-img {
+    border-radius: 50px;
+  }
+  /* news */
+  .hospital-news {
+    margin: 1.2% 0;
+    height: 18.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  .news {
+    height: 100%;
+    width: 73%;
+    display: flex;
+  }
+  .news > :first-child {
+    height: 100%;
+    width: 33%;
+  }
+  .news-culture {
+    height: 100%;
+    width: 36%;
+    border-right: #a1a1a1 solid 2px;
+    margin: 0 1%;
+  }
+  .news-guide {
+    height: 100%;
+    width: 29%;
+  }
+  .news-culture-title {
+    width: 88%;
+    height: 100%;
+    margin: 0 6%;
+  }
+  .titleUp {
+    height: 7%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #c1c1c1;
+    margin-top: 1%;
+  }
+  .titleUp > :first-child {
+    color: #686666;
+  }
+  .titleUp > :last-child {
+    color: #06b2c6;
+  }
+  .title {
+    height: 9.3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: #06b2c6 solid 2px;
+  }
+  .title-list {
+    width: 24%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  .title-list > :last-child {
+    margin: 0 7%;
+  }
+  .newsOne {
+    overflow: hidden;
+    height: 82.5%;
+  }
+  .newsOne-list {
+    margin: 3% 0;
+    height: 6%;
+    font-size: 1.1rem;
+    display: flex;
+  }
+  .newOne-left {
+    height: 100%;
+    width: 78%;
+    color: #686666;
+  }
+  .newOne-right {
+    height: 100%;
+    width: 21%;
+    color: #69eaf3;
+  }
+  .news-guide {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .guid-title {
+    width: 95%;
+    margin-top: 2%;
+    height: 15%;
+    border-bottom: #a1a1a1 solid 1.5px;
+  }
+  .guid-title-up {
+    display: flex;
+    font-size: 1.4rem;
+  }
+  .guid-title-up > :last-child {
+    margin-left: 2%; 
+    color: #69eaf3;
+  }
+  .guid-title-down {
+    height: 60%;
+    width: 22%;
+    font-size: 1.3rem;
+    z-index: 10;
+    border-bottom: #69eaf3 solid 2px;
+  }
+  .guid-down {
+    height: 78%;
+    width: 95%;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  .guid-down-one {
+    flex: 1;
+    display: flex;
+    margin-bottom: 1%;
+  }
+  .guid-margin {
+    margin: 0 3%;
+  }
+  
+  .background1 {
+    background-image: url("../assets/img/guid-background1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .background2 {
+    background-image: url("../assets/img/guid-background2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .guid-down-text {
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+  }
+  .one-left {
+    height: 100%;
+    width: 49.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .one-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .one-right-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .one-right-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .guid-down-two {
+    flex: 1;
+    display: flex;
+    margin-bottom: 1%;
+  }
+  .two-left {
+    height: 100%;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .two-right {
+    height: 100%;
+    width: 49%;
+    display: flex;
+    margin-left: 1.2%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* doctor */
+  .hospital-doctor {
+    height: 19.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .doctor {
+    width: 73%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: #c1c1c1 solid 2px;
+    border-bottom: #c1c1c1 solid 2px;
+  }
+  .doctor-title {
+    height: 14%;
+    display: flex;
+    align-items: center;
+    color: #c1c1c1;
+    font-size: 1.4rem;
+  }
+  .doctor-title > :first-child {
+    color: #686666;
+  }
+  .doctor-title > :last-child {
+    color: #06b2c6;
+  }
+  .doctor-tab {
+    height: 13%;
+    color: #8a9396;
+    display: flex;
+  }
+  .doctor-tab-background {
+    background-image: url("../assets/img/doctor-tab.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+  }
+  .doctor-tab-one {
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .doctor-tab-text {
+    margin-bottom: 7%;
+  }
+  .doctor-tab-two {
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+  }
+  .doctor-list {
+      display: flex;
+    height: 62%;
+    margin-top: 1%;
+  }
+  .doctor-list-name{
+    height: 100%;
+    width: 18.5%;
+    margin: 0 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .doctor-list-img{
+    height: 55%;
+    width: 100%;
+    border: #c1c1c1 solid 1px;
+  }
+  .doctor-list-text{
+    margin: 7% 0;
+    font-size: 1.3rem;
+    color: #06b2c6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .doctor-list-text > :last-child{
+    font-size: 1rem;
+    color: #414242;
+    margin-top: 6%;
+  }
+  .doctor-list-button{
+      height: 11%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    font-size: 1rem;
+    background: #06b2c6;
+  }
+  .hospital-healthcare{
+    height: 23.7%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .healthcare{
+    height: 100%;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+  }
+  .healthcare-title{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .healthcare-for{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .healthcare-list{
+    margin-top: 1%;
+    height: 47%;
+    width: 32%;
+    padding-left: 0.5%;
+    padding-right: 0.69%;
+    display: flex;
+    flex-direction: column;
+  }
+  .healthcare-list-title{
+    height: 18%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #a1a1a1 solid 2px;
+  }
+  .healthcare-list-title-left{
+    height: 100%;
+    width: 33.5%;
+    display: flex;
+    align-items: center;
+    color: #686666;
+    border-bottom: #06b2c6 solid 4px;
+  }
+  .healthcare-list-title-right{
+    height: 100%;
+    width: 33.5%;
+    display: flex;
+    color: #686666;
+    font-size: 1.5rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .healthcare-center{
+    flex: 1;
+    font-size: 1.1rem;
+    display: flex;
+    padding-top: 1.5%;
+  }
+  .healthcare-center-left{
+    height: 100%;
+    width: 78%;
+    color: #686666;
+  }
+  .healthcare-center-right{
+    height: 100%;
+    width: 21%;
+    color: #69eaf3;
+  }
+  .hospital-tail{
+    margin-top: 2%;
+    height: 7.3%;
+    width: 100%;
+  }
+  .tail{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #464648;
+  }
+  .tail-left{
+    height: 50%;
+    width: 27.5%;
+    display: flex;
+  }
+  .tail-right{
+    height: 60%;
+    width: 43.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tail-left-logo{
+    height: 100%;
+    width: 18%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tail-left-text{
+    height: 100%;
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tail-right-QRcode{
+    height: 100%;
+    width: 13.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+  }
+  .tail-right-text{
+    height: 100%;
+    width: 67%;
+    display: flex;
+    padding-left: 4%;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.4rem;
+  }
