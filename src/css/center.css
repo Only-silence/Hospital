@@ -4,12 +4,12 @@
   }
   /* banner */
   .hospital-banner {
-    height: 23%;
+    height: 24.5%;
   }
   /* function */
   .hospital-function {
     height: 4.6%;
-    margin: 0.5% 0;
+    margin: 0.9% 0;
     display: flex;
     justify-content: center;
   }
@@ -20,9 +20,15 @@
     border-top: #06b2c6 solid 2.5px;
     border-bottom: #06b2c6 solid 2.5px;
   }
+  .function > :first-child{
+    margin-left: 0;
+  }
+  .function > :last-child{
+    margin-right: 0;
+  }
   .function-list {
     height: 100%;
-    width: 24.5%;
+    width: 24.7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +63,7 @@
   /* news */
   .hospital-news {
     margin: 1.2% 0;
-    height: 18.2%;
+    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,6 +160,7 @@
   }
   .guid-title-up {
     display: flex;
+    color: #686666;
     font-size: 1.4rem;
   }
   .guid-title-up > :last-child {
@@ -161,11 +168,12 @@
     color: #69eaf3;
   }
   .guid-title-down {
-    height: 60%;
+    margin-top: 2%;
+    height: 50%;
     width: 22%;
     font-size: 1.3rem;
     z-index: 10;
-    border-bottom: #69eaf3 solid 2px;
+    border-bottom: #06b2c6 solid 2px;
   }
   .guid-down {
     height: 78%;
@@ -252,7 +260,7 @@
   
   /* doctor */
   .hospital-doctor {
-    height: 19.4%;
+    height: 21%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -308,7 +316,7 @@
     margin-left: 1%;
   }
   .doctor-list {
-      display: flex;
+    display: flex;
     height: 62%;
     margin-top: 1%;
   }
@@ -340,16 +348,19 @@
     margin-top: 6%;
   }
   .doctor-list-button{
-      height: 11%;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
+    height: 11%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
     font-size: 1rem;
     background: #06b2c6;
   }
+
+  /* healthcare */
   .hospital-healthcare{
+    margin-top: 0.8%;
     height: 23.7%;
     width: 100%;
     display: flex;
@@ -365,8 +376,12 @@
   .healthcare-title{
     height: 10%;
     width: 100%;
+    color: #686666;
     display: flex;
     align-items: center;
+  }
+  .healthcare-title > :last-child{
+    color: #06b2c6;
   }
   .healthcare-for{
     height: 100%;
@@ -375,7 +390,6 @@
     flex-wrap: wrap;
   }
   .healthcare-list{
-    margin-top: 1%;
     height: 47%;
     width: 32%;
     padding-left: 0.5%;

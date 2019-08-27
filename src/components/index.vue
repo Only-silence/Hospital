@@ -34,16 +34,17 @@
       <div class="hospital-tab-edge"></div>
       <div class="hospital-tab-list" v-for="(item, index) in list" :key="index">
         <div class="hospital-tab-list-button">
-          <div>{{item.text}}</div>
+          <router-link :to="item.method"><div>{{item.text}}</div></router-link>
         </div>
       </div>
       <div class="hospital-tab-edge"></div>
     </div>
-    <center/>
-    <!-- <div class="hospital-tail">
+    <div class="hospital-center">
+      <router-view></router-view>
+    </div>
+    <div class="hospital-tail">
       <tail/>
-    </div> -->
-    <!-- <div class="hospital-banner"></div> -->
+    </div>
   </div>
 </template>
 
@@ -59,24 +60,31 @@ export default {
     return {
       list:[
         {
+          method:'center',
           text: '首页'
         },
         {
+          method:'overview',
           text: '医院概况'
         },
         {
+          method:'guide',
           text: '就医指南'
         },
         {
+          method:'department',
           text: '科室预览'
         },
         {
+          method:'honor',
           text: '医院荣誉'
         },
         {
+          method:'recruitment',
           text: '招聘信息'
         },
         {
+          method:'contact',
           text: '联系我们'
         }
       ]

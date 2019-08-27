@@ -101,10 +101,10 @@
           <div>TECHNICAL</div>
         </div>
         <div class="doctor-tab">
-          <div class="doctor-tab-one doctor-tab-background" @click="tab">
+          <div class="doctor-tab-one" :class="{ 'doctor-tab-background':show }" @click="tab">
             <div class="doctor-tab-text">名医荟萃</div>
           </div>
-          <div class="doctor-tab-two" @click="tab2">
+          <div class="doctor-tab-two" :class="{ 'doctor-tab-background':show1 }" @click="tab2">
             <div class="doctor-tab-text">先进设备</div>
           </div>
           <div></div>
@@ -119,7 +119,7 @@
             <div class="doctor-list-button">查看详情</div>
           </div>
         </div>
-        <div v-if="Show1">
+        <div v-if="show1">
           XXXXXXXXXXXX
         </div>
       </div>
@@ -140,28 +140,6 @@
               <div class="healthcare-center-left">{{list.textLeft}}</div>
               <div class="healthcare-center-right">{{list.textTime}}</div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hospital-tail">
-      <div class="tail">
-        <div class="tail-left">
-          <div class="tail-left-logo">
-            <img src="../assets/img/tail-logo.png" alt="">
-          </div>
-          <div class="tail-left-text">
-            <img src="../assets/img/tail-text.png" alt="">
-          </div>
-        </div>
-        <div class="tail-right">
-          <div class="tail-right-QRcode">
-            <img src="../assets/img/tail-QRcode.png" alt="">
-          </div>
-          <div class="tail-right-text">
-            <div>地址：景洪市嘎兰中路106号（西双版纳州幼儿园对面）</div>
-            <div>电话：069-2229228</div>
-            <div> 技术支持：三叶CENJE</div>
           </div>
         </div>
       </div>

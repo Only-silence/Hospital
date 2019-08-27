@@ -22,19 +22,19 @@ export default {
           {
             // html: 'slide1',
             style: {
-              'background': 'url(http://img2.imgtn.bdimg.com/it/u=3864177753,3040528167&fm=26&gp=0.jpg)'
+              'background': 'url(http://image.uisdc.com/wp-content/uploads/2016/12/uisdc-banner-20161230-6.png)'
             }
           },
           {
             // html: 'slide2',
             style: {
-              'background': 'url(http://img5.imgtn.bdimg.com/it/u=128087870,3045749721&fm=26&gp=0.jpg)'
+              'background': 'url(http://image.uisdc.com/wp-content/uploads/2016/12/uisdc-banner-20161230-7.png)'
             }
           },
           {
             // html: 'slide3',
             style: {
-              'background': 'url(http://img5.imgtn.bdimg.com/it/u=3514761049,1866138884&fm=26&gp=0.jpg)'
+              'background': 'url(http://image.uisdc.com/wp-content/uploads/2016/12/uisdc-banner-20161230-9.png)'
             }
           }
         ],

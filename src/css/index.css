@@ -5,6 +5,7 @@
   .all{
     height: 100%;
     flex-direction: column;
+    overflow-x:hidden;overflow-y:auto;
   }
   
   /* title */
@@ -156,10 +157,16 @@
     border-left: #fff solid 1px;
     border-right: #fff solid 1px;
   }
+  a{
+    text-decoration:none;
+    color: #fff;
+  }
+  .hospital-center{
+    height: 85%;
+    width: 100；
+  }
   .hospital-tail{
-    margin-top: 2%;
     height: 7.3%;
     width: 100%;
-    border: #f00 solid 1px;
   }
   
